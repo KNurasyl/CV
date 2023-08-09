@@ -52,37 +52,6 @@
     text-transform: uppercase;
 }
 
-.info_content a {
-    display: block;
-    padding: 15px 25px;
-    border-radius: 30px;
-    border: 1px solid #efad02;
-    background: none;
-    color: whitesmoke;
-    width: 220px;
-    text-align: left;
-    position: relative;
-    font-size: 16px;
-    margin-top: 20px;
-    text-decoration: none;
-}
-
-.info_content a::before {
-    content: '\2193';
-    color: whitesmoke;
-    height: 100%;
-    width: 20%;
-    position: absolute;
-    background-color: #efad02;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-}
-
 .info {
     display: flex;
     justify-content: space-between;

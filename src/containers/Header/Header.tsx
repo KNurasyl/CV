@@ -19,9 +19,6 @@ export const Header = () => {
                     <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat ut velit dicta recusandae, illum fugit cumque aliquam inventore rem reprehenderit!
                     </p>
-                    <button>
-                        Больше обо мне
-                    </button>
                 </div>
             </div>
         </div>

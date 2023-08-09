@@ -48,9 +48,6 @@ export const AboutMe = () => {
                             </p>
                         </div>
                     </div>
-                    <a href="/11.pdf" download className="btn">
-                        Скачать резюме
-                    </a>
                 </div>
                 <div className="statistics">
                     <div className="stat_block">
