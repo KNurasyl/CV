@@ -1,0 +1,60 @@
+.MyPortfolio {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.MyPortfolio_title_block {
+    color: whitesmoke;
+    font-size: 40px;
+    position: relative;
+}
+
+.MyPortfolio_title_block span {
+    color: #efad02;
+}
+
+.MyPortfolio_title_block::after {
+    content: 'WORKS'; 
+    position: absolute;
+    color: #1f1f1f;
+    font-size: 135px;
+    font-weight: bold;
+    top: 0;
+    left: -30px;
+    z-index: 2;
+}
+
+.MyPortfolio_title {
+    position: relative;
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+.MyPortfolio_info_block {
+    width: 70%;
+    margin-top: 80px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .MyPortfolio {
+        height: auto;
+    }
+
+    .MyPortfolio_title_block {
+        font-size: 25px;
+    }
+
+    .MyPortfolio_title_block::after {
+        font-size: 80px;
+        left: -15px;
+    }
+
+    .MyPortfolio_info_block {
+        width: 95%;
+        margin: 0;
+    }
+}

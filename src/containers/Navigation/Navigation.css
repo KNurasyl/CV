@@ -1,0 +1,81 @@
+.toggle-button {
+  position: fixed;
+  top: 22%;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2d2d2d;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  z-index: 10;
+  font-size: 20px;
+  transition: background-color 0.3s ease, transform 0.5s ease;
+}
+
+.toggle-button.open {
+  background-color: #efad02;
+  transform: rotate(360deg);
+}
+
+.toggle-button:hover {
+  background-color: #efad02;
+  color: #fff;
+}
+
+.Navigation {
+  position: fixed;
+  top: 55%;
+  right: 10px;
+  transform: translateY(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  z-index: 11;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.Navigation.open {
+  opacity: 1;
+}
+
+.Navigation a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #2d2d2d;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: whitesmoke;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.Navigation a.active {
+  background-color: #efad02;
+  color: #fff;
+}
+
+.Navigation a:hover {
+  background-color: #efad02;
+  color: #fff;
+}
+
+@media (min-width: 501px) and (max-width: 1200px) {
+  .toggle-button {
+    display: none;
+  }
+
+  .Navigation {
+    display: none;
+  }
+}

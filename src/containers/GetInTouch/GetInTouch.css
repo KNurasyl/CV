@@ -1,0 +1,272 @@
+.GetInTouch {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.GetInTouch_title_block {
+    color: whitesmoke;
+    font-size: 40px;
+    position: relative;
+}
+
+.GetInTouch_title_block span {
+    color: #efad02;
+}
+
+.GetInTouch_title_block::after {
+    content: 'CONTACTS'; 
+    position: absolute;
+    color: #1f1f1f;
+    font-size: 110px;
+    font-weight: bold;
+    top: 15px;
+    left: -70px;
+    z-index: 2;
+}
+
+.GetInTouch_title {
+    position: relative;
+    z-index: 3;
+    text-transform: uppercase;
+}
+
+.GetInTouch_content_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.GetInTouch_info {
+    width: 40%;
+}
+
+.GetInTouch_info_contacts {
+    margin-top: 50px;
+}
+
+.GetInTouch_info_text {
+    width: 80%;
+}
+
+.GetInTouch_info_text h3{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.GetInTouch_info_text p {
+    color: whitesmoke;
+}
+
+.GetInTouch_info_item {
+    display: flex;
+    height: 100px;
+}
+
+.GetInTouch_info_item_text p {
+    margin: 0;
+    margin-left: 20px;
+}
+.custom_icon {
+    font-size: 50px;
+    color: #efad02;
+}
+
+.GetInTouch_info_item_title {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.GetInTouch_info_text_content {
+    color: whitesmoke;
+}
+
+.GetInTouch_form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 50%;
+    height: 80%;
+}
+
+.GetInTouch_form_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.GetInTouch_form_item input {
+    width: 43%;
+}
+
+.GetInTouch_form input, textarea {
+    background-color: #252525;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.GetInTouch_form button {
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 1px solid #efad02;
+    background: none;
+    color: whitesmoke;
+    width: 220px;
+    text-align: left;
+    position: relative;
+    font-size: 16px;
+}
+
+.GetInTouch_form button::before {
+    content: '';
+    color: whitesmoke;
+    height: 100%;
+    width: 23%;
+    position: absolute;
+    background-color: #efad02;
+    top: 0;
+    right: 0;
+    border-radius: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+    .GetInTouch {
+        height: 1100px;
+        margin-top: 60px;
+    }
+
+    .GetInTouch_title_block {
+        font-size: 25px;
+    }
+
+    .GetInTouch_title_block::after {
+        font-size: 60px;
+        top: 14px;
+        left: -25px;
+    }
+
+    .GetInTouch_content_block {
+        flex-direction: column;
+    }
+
+    .GetInTouch_info {
+        width: 100%;
+    }
+
+    .GetInTouch_info_text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .GetInTouch_info_item {
+        justify-content: center;
+    }
+
+    .GetInTouch_form {
+        width: 100%;
+        height: 400px;
+        align-items: center;
+    }
+
+    .GetInTouch_form input {
+        padding: 7px;
+    }
+
+    .GetInTouch_form textarea {
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 150px;
+        max-height: 150px;
+    }
+
+    .GetInTouch_form_input {
+        width: 90%;
+    }
+
+    .GetInTouch_form_item {
+        width: 93%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    .GetInTouch {
+        height: 1000px;
+        margin-top: 60px;
+    }
+
+    .GetInTouch_title_block {
+        font-size: 25px;
+    }
+
+    .GetInTouch_title_block::after {
+        font-size: 60px;
+        top: 14px;
+        left: -25px;
+    }
+
+    .GetInTouch_content_block {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .GetInTouch_info {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .GetInTouch_info_text {
+        height: 100%;
+    }
+
+    .GetInTouch_info_contacts {
+        margin: 0;
+        width: 40%;
+    }
+
+    .GetInTouch_info_text {
+        width: 50%;
+        text-align: center;
+    }
+
+    .GetInTouch_info_item {
+        justify-content: center;
+    }
+
+    .GetInTouch_form {
+        width: 100%;
+        height: 400px;
+        align-items: center;
+    }
+
+    .GetInTouch_form input {
+        padding: 7px;
+    }
+
+    .GetInTouch_form textarea {
+        min-width: 90%;
+        max-width: 90%;
+        min-height: 150px;
+        max-height: 150px;
+    }
+
+    .GetInTouch_form_input {
+        width: 90%;
+    }
+
+    .GetInTouch_form_item {
+        width: 93%;
+    }
+}
