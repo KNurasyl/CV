@@ -70,7 +70,7 @@
   color: #fff;
 }
 
-@media (min-width: 501px) and (max-width: 1200px) {
+@media (min-width: 300px) and (max-width: 1200px) {
   .toggle-button {
     display: none;
   }

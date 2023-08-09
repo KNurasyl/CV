@@ -6,7 +6,7 @@ export const Experience = () => {
     return (
         <div className="Experience" id="block4">
             <div className="Experience_title">
-                <h3>Experience & Education</h3>
+                <h3>Опыт работы</h3>
             </div>
             <div className="Experience_info_block">
                 <div className="Experience_info">

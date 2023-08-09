@@ -8,13 +8,13 @@ export const GetInTouch = () => {
         <div className="GetInTouch" id="block6">
             <div className="GetInTouch_title_block">
                 <h2 className="GetInTouch_title">
-                    Get In <span>Touch</span>
+                    Связаться <span>со мной</span>
                 </h2>
             </div>
             <div className="GetInTouch_content_block">
                 <div className="GetInTouch_info">
                     <div className="GetInTouch_info_text">
-                        <h3>Don't be shy!</h3>
+                        <h3>Не стесняйтесь!</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa, et porro enim eligendi nobis consequatur ullam dolorum beatae? Quaerat!</p>
                     </div>
                     <div className="GetInTouch_info_contacts">
@@ -61,7 +61,7 @@ export const GetInTouch = () => {
                     <input type="text" className="GetInTouch_form_input"/>
                     <textarea cols={30} rows={10}></textarea>
                     <button>
-                        Send Message
+                        Отправить
                     </button>
                 </form>
             </div>

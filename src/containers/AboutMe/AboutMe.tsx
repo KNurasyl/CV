@@ -7,13 +7,13 @@ export const AboutMe = () => {
         <div className="AboutMe" id="block2">
             <div className="AboutMe_title_block">
                 <h2 className="AboutMe_title">
-                    About <span>Me</span>
+                    Обо <span>Мне</span>
                 </h2>
             </div>
             <div className="info_block">
                 <div className="info_content">
                     <div className="title">
-                        <h3>personal infos</h3>
+                        <h3>Персональная информация</h3>
                     </div>
                     <div className="info">
                         <div className="info_text">
@@ -59,8 +59,8 @@ export const AboutMe = () => {
                         </span>
                     </div>
                     <div className="stat_block">
-                        <span className="stat_num">
-                            5
+                        <span className="stat_num sec">
+                            10
                         </span>
                         <span className="stat_text">
                             проектов

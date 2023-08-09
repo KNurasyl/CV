@@ -18,7 +18,7 @@
 }
 
 .MyPortfolio_title_block::after {
-    content: 'WORKS'; 
+    content: 'РАБОТЫ'; 
     position: absolute;
     color: #1f1f1f;
     font-size: 135px;

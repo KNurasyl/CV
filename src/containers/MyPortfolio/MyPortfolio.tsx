@@ -20,7 +20,7 @@ export const MyPortfolio = () => {
         <div className="MyPortfolio" id="block5">
             <div className="MyPortfolio_title_block">
                 <h2 className="MyPortfolio_title">
-                    My <span>Portfolio</span>
+                    Моё <span>Портфолио</span>
                 </h2>
             </div>
             <div className="MyPortfolio_info_block">

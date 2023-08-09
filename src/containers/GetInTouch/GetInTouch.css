@@ -18,13 +18,13 @@
 }
 
 .GetInTouch_title_block::after {
-    content: 'CONTACTS'; 
+    content: 'КОНТАКТЫ'; 
     position: absolute;
     color: #1f1f1f;
     font-size: 110px;
     font-weight: bold;
-    top: 15px;
-    left: -70px;
+    top: -8px;
+    left: -65px;
     z-index: 2;
 }
 
@@ -32,6 +32,7 @@
     position: relative;
     z-index: 3;
     text-transform: uppercase;
+    font-size: 45px;
 }
 
 .GetInTouch_content_block {

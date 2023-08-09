@@ -11,42 +11,42 @@ export const MySkills = () => {
     return (
         <div className="MySkills" id="block3">
             <div className="MySkills_title">
-                <h3>MY SKILLS</h3>
+                <h3>МОИ НАВЫКИ</h3>
             </div>
             <div className="skill_block">
                <div className="skill">
                     <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
+                    <p>React</p>
+               </div>
+               <div className="skill">
+                    <Progress type="circle" percent={90} strokeColor="#efad02" format={customFormat}/>
+                    <p>Node js</p>
+               </div>
+               <div className="skill">
+                    <Progress type="circle" percent={90} strokeColor="#efad02" format={customFormat}/>
+                    <p>UI</p>
                </div>
                <div className="skill">
                     <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
-               </div>
-               <div className="skill">
-                    <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
-               </div>
-               <div className="skill">
-                    <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
+                    <p>SQL/NoSQL</p>
                </div>
             </div>
             <div className="skill_block">
             <div className="skill">
-                    <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
+                    <Progress type="circle" percent={90} strokeColor="#efad02" format={customFormat}/>
+                    <p>TypeScript</p>
                </div>
                <div className="skill">
                     <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
+                    <p>Redux</p>
+               </div>
+               <div className="skill">
+                    <Progress type="circle" percent={87} strokeColor="#efad02" format={customFormat}/>
+                    <p>GIT</p>
                </div>
                <div className="skill">
                     <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
-               </div>
-               <div className="skill">
-                    <Progress type="circle" percent={95} strokeColor="#efad02" format={customFormat}/>
-                    <p>SKILL</p>
+                    <p>Social</p>
                </div>
             </div>
         </div>
