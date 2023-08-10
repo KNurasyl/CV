@@ -142,6 +142,7 @@ textarea::placeholder {
     text-align: left;
     position: relative;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .GetInTouch_form button::before {

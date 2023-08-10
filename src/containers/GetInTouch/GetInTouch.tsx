@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { notification, Spin  } from 'antd';
 import { MailOutlined, WhatsAppOutlined, SendOutlined } from '@ant-design/icons';
 import './GetInTouch.css';
 
-const telegramBotToken = '6459513099:AAHEaTK8n2Jg8a2tE91UBAS7OxoLT-an3fo';
 
 interface Message {
     name: string;
@@ -23,8 +21,8 @@ const initialMessageState: Message = {
 const sendTelegramMessage = (message: Message) => {
     try {
         const username = "Nurasyl_kayratuly";
-        const text =  `Привет. Меня зовут ${message.name}. \n Я из компаний ${message.company}. \n Это моя почта: ${message.email} \n Сообщение: ${message.messageText}`;
-        const link = `https://t.me/${username}?start=${encodeURIComponent(text)}`;
+        const text =  `Привет. Меня зовут ${message.name}. Я из компаний ${message.company}. Это моя почта: ${message.email} Сообщение: ${message.messageText}`;
+        const link = `https://t.me/${username}?start=${text}`;
         window.open(link);
 
         console.log('Telegram message sent successfully.');
