@@ -24,7 +24,7 @@ export const Experience = () => {
                             2022 - по настоящий день
                         </h4>
                         <h2>
-                            Ментор по Веб разработке <span>- Attractor School</span>
+                        Ассистент-преподаватель по веб-разработке <span>- Attractor School</span>
                         </h2>
                         <p>Обучение студентов веб разработке.</p>
                     </div>
