@@ -66,7 +66,12 @@ export const GetInTouch = () => {
             });
         }
     };
-
+    const handleStartChat = () => {
+        const username = "Nurasyl_kayratuly";
+        const message = "Привет, я хотел бы задать вам вопрос.";
+        const link = `https://t.me/${username}?start=${encodeURIComponent(message)}`;
+        window.open(link);
+    };
     return (
         <div className="GetInTouch" id="block6">
             <div className="GetInTouch_title_block">
@@ -115,7 +120,7 @@ export const GetInTouch = () => {
                         </div>
                     </div>
                 </div>
-                <form className="GetInTouch_form" onSubmit={handleSubmit}>
+                <form className="GetInTouch_form" onSubmit={handleStartChat}>
                     <div className="GetInTouch_form_item">
                         <input
                             type="text"
