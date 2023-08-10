@@ -45,12 +45,14 @@
     }
 
     .MyPortfolio_title_block {
-        font-size: 25px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .MyPortfolio_title_block::after {
-        font-size: 80px;
-        left: -15px;
+        font-size: 70px;
+        left: -7px;
+        top: -5px;
     }
 
     .MyPortfolio_info_block {

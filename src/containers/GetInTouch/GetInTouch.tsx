@@ -1,5 +1,5 @@
 import React from "react";
-import { MailOutlined } from '@ant-design/icons';
+import { MailOutlined, WhatsAppOutlined, SendOutlined } from '@ant-design/icons';
 import './GetInTouch.css';
 
 
@@ -14,40 +14,40 @@ export const GetInTouch = () => {
             <div className="GetInTouch_content_block">
                 <div className="GetInTouch_info">
                     <div className="GetInTouch_info_text">
-                        <h3>Не стесняйтесь!</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsa, et porro enim eligendi nobis consequatur ullam dolorum beatae? Quaerat!</p>
+                        <h3>Свяжитесь со мной</h3>
+                        <p>Не стесняйтесь связаться со мной. Я всегда рад общению!</p>
                     </div>
                     <div className="GetInTouch_info_contacts">
                         <div className="GetInTouch_info_item">
                             <MailOutlined className="custom_icon"/>
                             <div className="GetInTouch_info_item_text">
                                 <p className="GetInTouch_info_item_title">
-                                    Mail me
+                                    Напишите мне
                                 </p>
                                 <p className="GetInTouch_info_text_content">
-                                    example@gmail.com
+                                    k.nurasyl7788@gmail.com
                                 </p>
                             </div>
                         </div>
                         <div className="GetInTouch_info_item">
-                            <MailOutlined className="custom_icon"/>
+                            <SendOutlined className="custom_icon"/>
                             <div className="GetInTouch_info_item_text">
                                 <p className="GetInTouch_info_item_title">
-                                    Mail me
+                                    Напишите мне
                                 </p>
                                 <p className="GetInTouch_info_text_content">
-                                    example@gmail.com
+                                    @Nurasyl_kayratuly
                                 </p>
                             </div>
                         </div>
                         <div className="GetInTouch_info_item">
-                            <MailOutlined className="custom_icon"/>
+                            <WhatsAppOutlined className="custom_icon"/>
                             <div className="GetInTouch_info_item_text">
                                 <p className="GetInTouch_info_item_title">
-                                    Mail me
+                                    Напишите мне
                                 </p>
                                 <p className="GetInTouch_info_text_content">
-                                    example@gmail.com
+                                    +7 707 356 7788
                                 </p>
                             </div>
                         </div>
@@ -55,11 +55,11 @@ export const GetInTouch = () => {
                 </div>
                 <form className="GetInTouch_form">
                     <div className="GetInTouch_form_item">
-                        <input type="text" />
-                        <input type="text" />
+                        <input type="text" placeholder="ВАШЕ ИМЯ"/>
+                        <input type="text" placeholder="ВАША ПОЧТА"/>
                     </div>
-                    <input type="text" className="GetInTouch_form_input"/>
-                    <textarea cols={30} rows={10}></textarea>
+                    <input type="text" className="GetInTouch_form_input" placeholder="ВАША КОМПАНИЯ"/>
+                    <textarea cols={30} rows={10} placeholder="ВАШЕ СООБЩЕНИЕ"></textarea>
                     <button>
                         Отправить
                     </button>

@@ -124,18 +124,18 @@
 @media (min-width: 320px) and (max-width: 500px) {
     .AboutMe {
         margin-top: 50px;
-        height: 1300px;
+        height: 1250px;
     }
 
     .AboutMe_title {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
     }
 
     .AboutMe_title_block::after {
-        font-size: 75px;
+        font-size: 60px;
         top: 15%;
-        left: -25px;
+        left: -35px;
     }
 
     .info_block {
@@ -167,6 +167,7 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
+        margin-top: 50px;
     }
 
     .stat_block {
@@ -194,9 +195,9 @@
     }
 
     .AboutMe_title_block::after {
-        font-size: 120px;
-        top: 15%;
-        left: -32px;
+        font-size: 105px;
+        top: 20%;
+        left: -35px;
     }
 
     .info_block {
