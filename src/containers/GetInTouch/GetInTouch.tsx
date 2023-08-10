@@ -13,6 +13,13 @@ interface Message {
     messageText: string;
 }
 
+const initialMessageState: Message = {
+    name: '',
+    email: '',
+    company: '',
+    messageText: ''
+};
+
 const sendTelegramMessage = async (message: Message) => {
     try {
         await axios.post(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
@@ -50,6 +57,7 @@ export const GetInTouch = () => {
             setIsSubmitting(true);
             await sendTelegramMessage(message);
             setIsSubmitting(false);
+            setMessage(initialMessageState);
         } else {
             notification.warning({
                 duration: 3,
