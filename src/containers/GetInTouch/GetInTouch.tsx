@@ -20,12 +20,12 @@ const initialMessageState: Message = {
     messageText: ''
 };
 
-const sendTelegramMessage = async (message: Message) => {
+const sendTelegramMessage = (message: Message) => {
     try {
         const username = "Nurasyl_kayratuly";
-        const text =  `Имя: ${message.name} \n Почта: ${message.email} \n Компания: ${message.company} \n Сообщение: ${message.messageText}`;
+        const text =  `Привет. Меня зовут ${message.name}. \n Я из компаний ${message.company}. \n Это моя почта: ${message.email} \n Сообщение: ${message.messageText}`;
         const link = `https://t.me/${username}?start=${encodeURIComponent(text)}`;
-        await window.open(link);
+        window.open(link);
 
         console.log('Telegram message sent successfully.');
     } catch (error) {
@@ -55,7 +55,7 @@ export const GetInTouch = () => {
         
         if (message.name && message.email && message.company && message.messageText) {
             setIsSubmitting(true);
-            await sendTelegramMessage(message);
+            sendTelegramMessage(message);
             setIsSubmitting(false);
             setMessage(initialMessageState);
         } else {
