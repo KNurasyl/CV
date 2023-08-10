@@ -1,22 +1,7 @@
 import React, { useState } from "react";
-import { notification, Spin  } from 'antd';
+import { Spin } from 'antd';
 import { MailOutlined, WhatsAppOutlined, SendOutlined } from '@ant-design/icons';
 import './GetInTouch.css';
-
-
-interface Message {
-    name: string;
-    email: string;
-    company: string;
-    messageText: string;
-}
-
-const initialMessageState: Message = {
-    name: '',
-    email: '',
-    company: '',
-    messageText: ''
-};
 
 const sendTelegramMessage = () => {
     try {
