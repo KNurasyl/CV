@@ -22,10 +22,10 @@ const initialMessageState: Message = {
 
 const sendTelegramMessage = async (message: Message) => {
     try {
-        await axios.post(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
-            chat_id: 873289643,
-            text: `Имя: ${message.name} \n Почта: ${message.email} \n Компания: ${message.company} \n Сообщение: ${message.messageText}`
-        });
+        const username = "Nurasyl_kayratuly";
+        const text =  `Имя: ${message.name} \n Почта: ${message.email} \n Компания: ${message.company} \n Сообщение: ${message.messageText}`;
+        const link = `https://t.me/${username}?start=${encodeURIComponent(text)}`;
+        await window.open(link);
 
         console.log('Telegram message sent successfully.');
     } catch (error) {
@@ -66,12 +66,7 @@ export const GetInTouch = () => {
             });
         }
     };
-    const handleStartChat = () => {
-        const username = "Nurasyl_kayratuly";
-        const message = "Привет, я хотел бы задать вам вопрос.";
-        const link = `https://t.me/${username}?start=${encodeURIComponent(message)}`;
-        window.open(link);
-    };
+
     return (
         <div className="GetInTouch" id="block6">
             <div className="GetInTouch_title_block">
@@ -120,7 +115,7 @@ export const GetInTouch = () => {
                         </div>
                     </div>
                 </div>
-                <form className="GetInTouch_form" onSubmit={handleStartChat}>
+                <form className="GetInTouch_form" onSubmit={handleSubmit}>
                     <div className="GetInTouch_form_item">
                         <input
                             type="text"
