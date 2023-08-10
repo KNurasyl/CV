@@ -18,11 +18,10 @@ const initialMessageState: Message = {
     messageText: ''
 };
 
-const sendTelegramMessage = (message: Message) => {
+const sendTelegramMessage = () => {
     try {
         const username = "Nurasyl_kayratuly";
-        const text =  `Привет. Меня зовут ${message.name}. Я из компаний ${message.company}. Это моя почта: ${message.email} Сообщение: ${message.messageText}`;
-        const link = `https://t.me/${username}?start=${text}`;
+        const link = `https://t.me/${username}?start=Привет.`;
         window.open(link);
 
         console.log('Telegram message sent successfully.');
@@ -33,36 +32,13 @@ const sendTelegramMessage = (message: Message) => {
 
 export const GetInTouch = () => {
     const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
-    const [message, setMessage] = useState<Message>({
-        name: '',
-        email: '',
-        company: '',
-        messageText: ''
-    });
-
-    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-        const { name, value } = e.target;
-        setMessage((prevMessage) => ({
-            ...prevMessage,
-            [name]: value
-        }));
-    };
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         
-        if (message.name && message.email && message.company && message.messageText) {
-            setIsSubmitting(true);
-            sendTelegramMessage(message);
-            setIsSubmitting(false);
-            setMessage(initialMessageState);
-        } else {
-            notification.warning({
-                duration: 3,
-                message: "Пожалуйста, заполните все поля.",
-                placement: 'bottomRight'
-            });
-        }
+        setIsSubmitting(true);
+        sendTelegramMessage();
+        setIsSubmitting(false);
     };
 
     return (
@@ -114,40 +90,8 @@ export const GetInTouch = () => {
                     </div>
                 </div>
                 <form className="GetInTouch_form" onSubmit={handleSubmit}>
-                    <div className="GetInTouch_form_item">
-                        <input
-                            type="text"
-                            placeholder="ВАШЕ ИМЯ"
-                            name="name"
-                            value={message.name}
-                            onChange={handleInputChange}
-                        />
-                        <input
-                            type="text"
-                            placeholder="ВАША ПОЧТА"
-                            name="email"
-                            value={message.email}
-                            onChange={handleInputChange}
-                        />
-                    </div>
-                    <input
-                        type="text"
-                        className="GetInTouch_form_input"
-                        placeholder="ВАША КОМПАНИЯ"
-                        name="company"
-                        value={message.company}
-                        onChange={handleInputChange}
-                    />
-                    <textarea
-                        cols={30}
-                        rows={10}
-                        placeholder="ВАШЕ СООБЩЕНИЕ"
-                        name="messageText"
-                        value={message.messageText}
-                        onChange={handleInputChange}
-                    ></textarea>
                     <button type="submit" disabled={isSubmitting}>
-                        {isSubmitting ? <Spin /> : 'Отправить'}
+                        {isSubmitting ? <Spin /> : 'Написать...'}
                     </button>
                 </form>
             </div>
