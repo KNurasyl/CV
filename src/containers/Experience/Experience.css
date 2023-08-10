@@ -74,4 +74,8 @@
     .Experience_info {
         width: 80%;
     }
+
+    .Experience_info_item h4 {
+        margin-top: 10px;
+    }
 }

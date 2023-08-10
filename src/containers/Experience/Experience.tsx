@@ -17,7 +17,7 @@ export const Experience = () => {
                         <h2>
                             Full-stack developer <span>- FHS</span>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt, reprehenderit fuga eum sed dolorum.</p>
+                        <p>Разработка трейдинговой и финансовой системы. Также внутренних СРМ систем.</p>
                     </div>
                     <div className="Experience_info_item">
                         <h4>
@@ -26,7 +26,7 @@ export const Experience = () => {
                         <h2>
                             Ментор по Веб разработке <span>- Attractor School</span>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt, reprehenderit fuga eum sed dolorum.</p>
+                        <p>Обучение студентов веб разработке.</p>
                     </div>
                 </div>
                 <div className="Experience_info">
@@ -37,7 +37,7 @@ export const Experience = () => {
                         <h2>
                             Преподователь по ресторанному делу <span>- КИТИГ</span>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt, reprehenderit fuga eum sed dolorum.</p>
+                        <p>Преподавание узко-специализированных предметов по менеджменту.</p>
                     </div>
                     <div className="Experience_info_item">
                         <h4>
@@ -46,7 +46,7 @@ export const Experience = () => {
                         <h2>
                             Финансовый агент <span>- Eurasian Bank</span>
                         </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt, reprehenderit fuga eum sed dolorum.</p>
+                        <p>Предоставление финансовых услуг лояльным клиентам банка.</p>
                     </div>
                 </div>
             </div>
