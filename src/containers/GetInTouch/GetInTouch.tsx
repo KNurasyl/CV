@@ -8,14 +8,13 @@ export const GetInTouch = () => {
         <div className="GetInTouch" id="block6">
             <div className="GetInTouch_title_block">
                 <h2 className="GetInTouch_title">
-                    Связаться <span>со мной</span>
+                    Мои <span>Контакты</span>
                 </h2>
             </div>
             <div className="GetInTouch_content_block">
                 <div className="GetInTouch_info">
                     <div className="GetInTouch_info_text">
                         <h3>Свяжитесь со мной</h3>
-                        <p>Не стесняйтесь связаться со мной. Я всегда рад общению!</p>
                     </div>
                     <div className="GetInTouch_info_contacts">
                         <div className="GetInTouch_info_item">

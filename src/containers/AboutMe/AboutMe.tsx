@@ -52,7 +52,7 @@ export const AboutMe = () => {
                 <div className="statistics">
                     <div className="stat_block">
                         <span className="stat_num">
-                            2
+                            1
                         </span>
                         <span className="stat_text">
                             года опыта работы

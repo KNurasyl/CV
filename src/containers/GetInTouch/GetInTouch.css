@@ -21,10 +21,10 @@
     content: 'КОНТАКТЫ'; 
     position: absolute;
     color: #1f1f1f;
-    font-size: 110px;
+    font-size: 100px;
     font-weight: bold;
-    top: -8px;
-    left: -65px;
+    top: -5px;
+    left: -90px;
     z-index: 2;
 }
 
@@ -122,6 +122,13 @@ textarea::placeholder {
     border: none;
     border-radius: 20px;
     padding: 10px;
+    color: whitesmoke;
+    padding-left: 15px;
+}
+
+.GetInTouch_form input:focus, textarea:focus {
+    outline: none;
+    border: none;
 }
 
 .GetInTouch_form button {
@@ -159,14 +166,14 @@ textarea::placeholder {
     }
 
     .GetInTouch_title {
-        font-size: 25px;
+        font-size: 30px;
         text-align: center;
     }
 
     .GetInTouch_title_block::after {
-        font-size: 55px;
-        top: 1px;
-        left: -15px;
+        font-size: 60px;
+        top: 2px;
+        left: -35px;
     }
 
     .GetInTouch_content_block {
@@ -242,8 +249,8 @@ textarea::placeholder {
 
     .GetInTouch_title_block::after {
         font-size: 85px;
-        top: 2px;
-        left: -20px;
+        top: 1px;
+        left: -60px;
     }
 
     .GetInTouch_content_block {
