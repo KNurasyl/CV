@@ -1,0 +1,15 @@
+.ChatApp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/Images/dark_souls-bg.jpg');
+    background-size: cover;
+}
+
+.conatiner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}

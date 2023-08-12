@@ -1,0 +1,8 @@
+.spinner_block {
+    position: relative;
+}
+
+.spinner {
+    position: relative;
+    z-index: 300;
+}

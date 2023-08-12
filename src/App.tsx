@@ -5,19 +5,30 @@ import { MySkills } from './containers/MySkills/MySkills';
 import { Experience } from './containers/Experience/Experience';
 import { MyPortfolio } from './containers/MyPortfolio/MyPortfolio';
 import { GetInTouch } from './containers/GetInTouch/GetInTouch';
-import './App.css';
 import { Navigation } from './containers/Navigation/Navigation';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { ChatApp } from './containers/ChatApp/ChatApp';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-        <Navigation/>
-        <Header/>
-        <AboutMe/>
-        <MySkills/>
-        <Experience/>
-        <MyPortfolio/>
-        <GetInTouch/>
+      <BrowserRouter>
+            <Routes>
+                <Route path='/CV' element={
+                  <>
+                    <Navigation/>
+                    <Header/>
+                    <AboutMe/>
+                    <MySkills/>
+                    <Experience/>
+                    <MyPortfolio/>
+                    <GetInTouch/>
+                  </>
+                }/>
+                <Route path='myPortfolio' element={<ChatApp/>} />
+            </Routes>
+      </BrowserRouter>
     </div>
   );
 }

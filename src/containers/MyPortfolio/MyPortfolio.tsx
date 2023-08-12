@@ -1,17 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Carousel } from "antd";
+import firstElement from '../../assets/Images/carousel_first_element.png';
 import './MyPortfolio.css';
 
-const contentStyle: React.CSSProperties = {
-    margin: 0,
-    height: '400px',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: 'none',
-};
-
 export const MyPortfolio = () => {
+    const navigate = useNavigate();
+
     const onChange = (currentSlide: number) => {
         console.log(currentSlide);
     };
@@ -25,17 +20,33 @@ export const MyPortfolio = () => {
             </div>
             <div className="MyPortfolio_info_block">
                 <Carousel afterChange={onChange} autoplay={true}>
-                    <div>
-                        <h3 style={contentStyle}>1</h3>
+                    <div onClick={() => navigate({ pathname: `/myPortfolio` })}>
+                        <img
+                            className="Carousel_img"
+                            src={firstElement}
+                            alt="Портфолио изображение"
+                        />
                     </div>
                     <div>
-                        <h3 style={contentStyle}>2</h3>
+                        <img
+                            className="Carousel_img"
+                            src={firstElement}
+                            alt="Портфолио изображение"
+                        />
                     </div>
                     <div>
-                        <h3 style={contentStyle}>3</h3>
+                        <img
+                            className="Carousel_img"
+                            src={firstElement}
+                            alt="Портфолио изображение"
+                        />
                     </div>
                     <div>
-                        <h3 style={contentStyle}>4</h3>
+                        <img
+                            className="Carousel_img"
+                            src={firstElement}
+                            alt="Портфолио изображение"
+                        />
                     </div>
                 </Carousel>
             </div>

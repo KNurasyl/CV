@@ -39,6 +39,12 @@
     margin-top: 80px;
 }
 
+.Carousel_img {
+    margin: 0;
+    height: 450px;
+    width: 100%;
+}
+
 @media (min-width: 320px) and (max-width: 768px) {
     .MyPortfolio {
         height: auto;
@@ -58,5 +64,17 @@
     .MyPortfolio_info_block {
         width: 95%;
         margin: 0;
+    }
+
+    .Carousel_img {
+        margin: 0;
+        height: 300px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
+    .Carousel_img {
+        height: 250px;
     }
 }
