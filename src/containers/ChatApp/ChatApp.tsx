@@ -51,7 +51,7 @@ export const ChatApp = () => {
     };
 
     return (
-        <div className="ChatApp">
+        <div className="ChatApp" style={isLoading ? { height: '100vh' } : undefined}>
             <Modal show={modalState} closed={() => setModalState(false)}>
                 <h1>Напишите сообщение</h1>
             </Modal>
