@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.ff7a8694.css",
-    "main.js": "/CV/static/js/main.04f74266.js",
+    "main.css": "/CV/static/css/main.f0915831.css",
+    "main.js": "/CV/static/js/main.6503a26b.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/dark-souls-form-bg.jpg": "/CV/static/media/dark-souls-form-bg.5b8923e7a884d4e19da5.jpg",
     "static/media/flame-input-bg.gif": "/CV/static/media/flame-input-bg.665f0f04231a466164c0.gif",
@@ -10,12 +10,12 @@
     "static/media/modal-bg.jpg": "/CV/static/media/modal-bg.3b31df763ce477b1064a.jpg",
     "static/media/header_img.jpg": "/CV/static/media/header_img.4952706498f4d468805a.jpg",
     "index.html": "/CV/index.html",
-    "main.ff7a8694.css.map": "/CV/static/css/main.ff7a8694.css.map",
-    "main.04f74266.js.map": "/CV/static/js/main.04f74266.js.map",
+    "main.f0915831.css.map": "/CV/static/css/main.f0915831.css.map",
+    "main.6503a26b.js.map": "/CV/static/js/main.6503a26b.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff7a8694.css",
-    "static/js/main.04f74266.js"
+    "static/css/main.f0915831.css",
+    "static/js/main.6503a26b.js"
   ]
 }
