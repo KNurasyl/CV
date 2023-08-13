@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-image: url('../../assets/Images/dark_souls-bg.jpg');
     background-size: cover;
 }
@@ -12,4 +11,50 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+    .conatiner {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .window {
+        width: 90%;
+        height: 70vh;
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        width: 80%;
+        height: 30vh;
+        padding: 10px;
+    }
+
+    .card {
+        width: 85%;
+        min-height: 100px;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .content_block-without-img {
+        font-size: 16px;
+    }
+
+    .content_block-without-img h3 {
+        text-transform: uppercase;
+        color: aliceblue;
+    }
+
+    .content_block-without-img p {
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    .form textarea {
+        min-height: 30px;
+    }
 }

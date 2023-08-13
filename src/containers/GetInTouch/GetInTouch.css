@@ -217,6 +217,10 @@
         width: 50%;
     }
 
+    .GetInTouch_info_item_text p {
+        margin-left: 0;
+    } 
+
     .GetInTouch_form button {
         margin-top: 0px;
     }

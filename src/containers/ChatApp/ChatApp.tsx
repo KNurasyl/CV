@@ -23,7 +23,7 @@ export const ChatApp = () => {
         } else {
             const newMessage: IMessage = {
                 id: messages.length + 1,
-                author: state.author,
+                author: state.author === '' ? 'anonymous' : state.author,
                 message: state.message
             };
         
