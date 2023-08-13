@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV/static/css/main.f0915831.css",
-    "main.js": "/CV/static/js/main.6503a26b.js",
+    "main.js": "/CV/static/js/main.bb8d6cff.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/dark-souls-form-bg.jpg": "/CV/static/media/dark-souls-form-bg.5b8923e7a884d4e19da5.jpg",
     "static/media/flame-input-bg.gif": "/CV/static/media/flame-input-bg.665f0f04231a466164c0.gif",
@@ -11,11 +11,11 @@
     "static/media/header_img.jpg": "/CV/static/media/header_img.4952706498f4d468805a.jpg",
     "index.html": "/CV/index.html",
     "main.f0915831.css.map": "/CV/static/css/main.f0915831.css.map",
-    "main.6503a26b.js.map": "/CV/static/js/main.6503a26b.js.map",
+    "main.bb8d6cff.js.map": "/CV/static/js/main.bb8d6cff.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0915831.css",
-    "static/js/main.6503a26b.js"
+    "static/js/main.bb8d6cff.js"
   ]
 }
