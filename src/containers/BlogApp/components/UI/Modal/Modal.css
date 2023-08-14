@@ -1,0 +1,36 @@
+.Modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+    color: #FBFFFF;
+    width: 70%;
+    height: 40%;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    left: 15%;
+    top: 25%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url('../../../../../assets/Images/modal-bg.jpg');
+    background-size: 100% 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px white;
+    text-align: center;
+}
+
+.Modal h2 {
+    width: 400px;
+    color: #262626;
+    text-shadow: 0px 0px 20px whitesmoke;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}

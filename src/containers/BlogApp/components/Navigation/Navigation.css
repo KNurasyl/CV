@@ -1,0 +1,26 @@
+.NavLink {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.NavLink a {
+    height: 100%;
+    border-bottom: 4px solid transparent;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+.NavLink a:hover,
+.NavLink a:active,
+.NavLink a.active {
+    background: none;
+    box-shadow: inset 0px 0px 15px white;
+    border-radius: 20px;
+}

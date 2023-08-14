@@ -1,0 +1,21 @@
+.BlogApp {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../../assets/Images/app-bg.jpg');
+    background-size: cover;
+}
+
+.main_page_blogApp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main_blogApp {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

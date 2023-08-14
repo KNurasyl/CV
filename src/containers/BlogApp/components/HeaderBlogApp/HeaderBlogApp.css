@@ -1,0 +1,8 @@
+.header_blogApp {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 15px 0;
+    background: none;
+}
