@@ -1,7 +1,7 @@
 .BlogApp {
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     flex-direction: column;
     background-image: url('../../assets/Images/app-bg.jpg');

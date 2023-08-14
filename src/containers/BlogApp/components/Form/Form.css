@@ -24,11 +24,11 @@
     z-index: 10;
 }
 
-.form_blogApp input, textarea, button, label, p, h3 {
+.form_blogApp input, .form_blogApp textarea, .form_blogApp button, .form_blogApp label, .form_blogApp p, .form_blogApp h3 {
     z-index: 15;
 }
 
-.form_blogApp h3, p {
+.form_blogApp h3, .form_blogApp p {
     color: whitesmoke;
     font-size: 35px;
     font-weight: bolder;

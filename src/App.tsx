@@ -8,6 +8,7 @@ import { GetInTouch } from './containers/GetInTouch/GetInTouch';
 import { Navigation } from './containers/Navigation/Navigation';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ChatApp } from './containers/ChatApp/ChatApp';
+import { BlogApp } from './containers/BlogApp/BlogApp';
 import './App.css';
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
                     <GetInTouch/>
                   </>
                 }/>
-                <Route path='myPortfolio' element={<ChatApp/>} />
+                <Route path='myPortfolio' element={<ChatApp />} />
+                <Route path='blogApp' element={<BlogApp />}/>
             </Routes>
       </BrowserRouter>
     </div>

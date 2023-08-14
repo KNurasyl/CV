@@ -2,7 +2,7 @@ import React from "react";
 import { Navigation } from "../Navigation/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
-import './Header.css';
+import './HeaderBlogApp.css';
 
 
 export const HeaderBlogApp = () => {

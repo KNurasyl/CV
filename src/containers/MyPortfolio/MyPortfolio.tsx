@@ -19,7 +19,7 @@ export const MyPortfolio = () => {
                 </h2>
             </div>
             <div className="MyPortfolio_info_block">
-                <Carousel afterChange={onChange} autoplay={true}>
+                <Carousel afterChange={onChange} autoplay={true} style={{ cursor: 'pointer' }}>
                     <div onClick={() => navigate({ pathname: `/myPortfolio` })}>
                         <img
                             className="Carousel_img"
@@ -27,7 +27,7 @@ export const MyPortfolio = () => {
                             alt="Портфолио изображение"
                         />
                     </div>
-                    <div>
+                    <div onClick={() => navigate({ pathname: `/blogApp` })}>
                         <img
                             className="Carousel_img"
                             src={firstElement}
