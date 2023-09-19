@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.f0915831.css",
-    "main.js": "/CV/static/js/main.bb8d6cff.js",
+    "main.css": "/CV/static/css/main.8d64c710.css",
+    "main.js": "/CV/static/js/main.73314c2b.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/dark-souls-form-bg.jpg": "/CV/static/media/dark-souls-form-bg.5b8923e7a884d4e19da5.jpg",
     "static/media/flame-input-bg.gif": "/CV/static/media/flame-input-bg.665f0f04231a466164c0.gif",
     "static/media/carousel_first_element.png": "/CV/static/media/carousel_first_element.0a3dd0ee5a1286344cdc.png",
     "static/media/dark_souls-bg.jpg": "/CV/static/media/dark_souls-bg.07020b7b44149b60b2c0.jpg",
     "static/media/modal-bg.jpg": "/CV/static/media/modal-bg.3b31df763ce477b1064a.jpg",
+    "static/media/app-bg.jpg": "/CV/static/media/app-bg.48feab0fa770c58728f4.jpg",
     "static/media/header_img.jpg": "/CV/static/media/header_img.4952706498f4d468805a.jpg",
     "index.html": "/CV/index.html",
-    "main.f0915831.css.map": "/CV/static/css/main.f0915831.css.map",
-    "main.bb8d6cff.js.map": "/CV/static/js/main.bb8d6cff.js.map",
+    "main.8d64c710.css.map": "/CV/static/css/main.8d64c710.css.map",
+    "main.73314c2b.js.map": "/CV/static/js/main.73314c2b.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0915831.css",
-    "static/js/main.bb8d6cff.js"
+    "static/css/main.8d64c710.css",
+    "static/js/main.73314c2b.js"
   ]
 }
