@@ -27,21 +27,21 @@ export const MyPortfolio = () => {
                             alt="Портфолио изображение"
                         />
                     </div>
-                    <div onClick={() => navigate({ pathname: `/blogApp` })}>
+                    <div onClick={() => navigate({ pathname: `/myPortfolio` })}>
                         <img
                             className="Carousel_img"
                             src={firstElement}
                             alt="Портфолио изображение"
                         />
                     </div>
-                    <div>
+                    <div onClick={() => navigate({ pathname: `/myPortfolio` })}>
                         <img
                             className="Carousel_img"
                             src={firstElement}
                             alt="Портфолио изображение"
                         />
                     </div>
-                    <div>
+                    <div onClick={() => navigate({ pathname: `/myPortfolio` })}>
                         <img
                             className="Carousel_img"
                             src={firstElement}
