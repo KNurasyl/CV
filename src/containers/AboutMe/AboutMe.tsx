@@ -50,11 +50,11 @@ export const AboutMe = () => {
         </div>
         <div className="statistics">
           <div className="stat_block">
-            <span className="stat_num">1</span>
-            <span className="stat_text">года опыта работы</span>
+            <span className="stat_num">2</span>
+            <span className="stat_text">года опыта работы в IT</span>
           </div>
           <div className="stat_block">
-            <span className="stat_num sec">10</span>
+            <span className="stat_num sec">35</span>
             <span className="stat_text">проектов</span>
           </div>
         </div>
